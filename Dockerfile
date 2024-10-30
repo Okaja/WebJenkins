@@ -1,3 +1,3 @@
 FROM ubuntu/apache2
-ADDD . /var/www/html/
+ADD . /var/www/html/
 ENTRYPOINT apachectl -D FOREGROUND
